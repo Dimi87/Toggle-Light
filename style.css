@@ -19,19 +19,6 @@ html {
     justify-content: center;
     align-items: center;
   }
-
-  .button {
-    font-size: 2rem;
-    cursor: pointer;
-    font-family: monospace;
-    border: 5px solid #333;
-    padding: 0.5rem 1rem;
-    background-color: snow;
-    border-radius: 2px;
-    color: #333;
-  }
-
-  //for JavaScript
   
   .body {
     transition: 1s ease-in-out background-color;
@@ -42,6 +29,16 @@ html {
     background-color: #333;
   }
   
+  .button {
+    font-size: 2rem;
+    cursor: pointer;
+    font-family: monospace;
+    border: 5px solid #333;
+    padding: 0.5rem 1rem;
+    background-color: snow;
+    border-radius: 2px;
+    color: #333;
+  }
   
   .button-dark {
     border: 5px solid snow;
@@ -49,5 +46,5 @@ html {
     color: snow;
     box-shadow: 0 0 5px yellow, 0 0 10px yellow, 0 0 20px yellow;
   }
-
-  //for JavaScript
+  
+  
